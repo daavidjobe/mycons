@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="close" stroke="#000000" stroke-width="2">
+    <circle id="circle" cx="21" cy="21" r="20"></circle>
+    <path d="M21.2022643,21.5592986 L13.2568399,29.4174107 L21.2022643,21.5592986 L28.9516315,29.2235079 L21.2022643,21.5592986 Z M21.2022643,21.5592986 L28.8568399,13.9888393 L21.2022643,21.5592986 L13.3516315,13.7949365 L21.2022643,21.5592986 Z" id="cross" stroke-linecap="round"></path>
+  </g>
+</svg>

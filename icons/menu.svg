@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="menu" stroke="#000000" stroke-width="2">
+    <circle id="circle" cx="21" cy="21" r="20"></circle>
+    <path d="M30.1666667,21.8333333 L11.8333333,21.8333333 M30.1666667,15.1666667 L11.8333333,15.1666667 M30.1666667,28.5 L11.8333333,28.5" id="burger" stroke-linecap="round"></path>
+  </g>
+</svg>

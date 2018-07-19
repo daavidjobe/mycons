@@ -1,6 +1,10 @@
 {
   "presets": [
-    "env",
-    "stage-0"
+    "react",
+    "env"
+  ],
+  "plugins": [
+    "add-module-exports",
+    "transform-object-rest-spread"
   ]
 }

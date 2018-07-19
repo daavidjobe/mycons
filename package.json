@@ -1,16 +1,28 @@
 {
-  "name": "Mycons",
-  "version": "1.0.0",
+  "name": "mycons",
+  "version": "1.0.6",
   "description": "React Icon Library",
   "author": "David Jobe <daavid.jobe@gmail.com>",
   "license": "MIT",
+  "main": "lib/index.js",
   "scripts": {
+    "build": "babel-node ./bin/generate",
+    "postbuild": "cp Svg.js dist && babel dist --out-dir lib && rm -rf dist",
+    "prepublish": "yarn build"
   },
   "peerDependencies": {
     "react": "^0.14.0 || ^15.0.0 || ^16.0.0",
     "react-dom": "^0.14.0 || ^15.0.0 || ^16.0.0"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.3",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "cheerio": "^1.0.0-rc.2",
     "eslint": "^4.11.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-formatter-pretty": "^1.1.0",
@@ -18,11 +30,6 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-node": "^5.2.1",
     "eslint-plugin-promise": "^3.6.0",
-    "eslint-plugin-standard": "^3.0.1",
-    "babel-cli": "^7.0.0-beta.3",
-    "babel-core": "^6.26.0",
-    "babel-eslint": "^8.2.3",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-stage-0": "^6.24.1"
+    "eslint-plugin-standard": "^3.0.1"
   }
 }
